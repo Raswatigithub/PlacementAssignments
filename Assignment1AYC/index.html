@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Validation and colum mapping</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet"  href="style.css"> 
+</head>
+<body>
+    <div class="main-container">
+        <h2>File Validation and colum mapping</h2>
+        <div class="upload-section">
+            <input type="file" id="fileUpload" accept=".csv, .xls, .xlsx">
+            <button onclick="uploadFile()">Upload</button>
+        </div>
+        <div id="preview-section" class="preview-section">
+
+        </div>
+        <div id="aggregated-section" class="aggregated-taxes">
+
+        </div>
+    </div>
+</body>
+</html>

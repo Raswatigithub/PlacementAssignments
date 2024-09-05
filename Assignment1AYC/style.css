@@ -1,0 +1,92 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    margin-top:30px ; 
+    background-color: cadetblue;
+    color: rgb(2, 2, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+        font-size: 0.9rem; 
+    }
+}
+
+h2 {
+    text-shadow: 1px 1px 5px gray;
+}
+
+.main-container {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgb(229, 229, 229);
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px gainsboro; 
+}
+
+.upload-section {
+    margin: 20px 0; 
+}
+
+.preview-section {
+    margin-top: 20px;
+}
+
+.column-mapping {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+#aggregated-section {
+    margin-top: 20px;
+    padding: 20px;
+    background: black; 
+    border-radius: 10px; 
+    color: white; 
+    max-height: 300px; 
+    overflow-y: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#aggregated-section p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+
+#aggregated-section p:hover {
+    background: rgba(255, 255, 255, 0.2); 
+ 
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray; 
+}
